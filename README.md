@@ -81,25 +81,33 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ## 🧬 Related
 
-[]()
+[@igor.dvlpr/git-repo-url](https://www.npmjs.com/package/@igor.dvlpr/git-repo-url)
 
-> __
+> _🌐 Gets the origin URL a local Git repository. 🗺️_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/is-git-repo](https://www.npmjs.com/package/@igor.dvlpr/is-git-repo)
 
-[]()
+> _🐸 Checks if a directory is a local Git repository. 🕶️_
 
-> __
+<br>
 
-[]()
+[@igor.dvlpr/aria](https://www.npmjs.com/package/@igor.dvlpr/aria)
 
-> __
+> _🧬 Meet Aria, an efficient Adblock filter list compiler, with many features that make your maintenance of Adblock filter lists a breeze! 🦖_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/open-resource](https://www.npmjs.com/package/@igor.dvlpr/open-resource)
+
+> _📂 Opens a given resource (URL, file, etc.) via the default OS handler. 🔎_
+
+<br>
+
+[@igor.dvlpr/vscode-folderpicker](https://www.npmjs.com/package/@igor.dvlpr/vscode-folderpicker)
+
+> _✨ Provides a custom Folder Picker API + UI for Visual Studio Code. 🎨_
 
 ---
 
