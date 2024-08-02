@@ -38,6 +38,7 @@
 
 ## 📃 Table of contents
 
+- [Features](#-features)
 - [Usage](#-usage)
 - [Changelog](#-changelog)
 - [License](#-license)
@@ -47,9 +48,15 @@
 <br>
 <br>
 
+## 🤖 Features
+
+- 
+- 
+- 
+
+---
+
 ## 🕵🏼 Usage
-
-
 
 ---
 
@@ -89,7 +96,5 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ---
 
-<br>
-
-### 👨🏻‍💻 Author
+## 👨🏻‍💻 Author
 Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
