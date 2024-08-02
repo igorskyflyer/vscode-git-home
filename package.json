@@ -12,6 +12,9 @@
     "main": "dist/extension.js",
     "extensionKind": ["ui"],
     "capabilities": {
+        "virtualWorkspaces": {
+            "supported": false
+        },
         "untrustedWorkspaces": {
             "supported": false
         }
@@ -62,6 +65,10 @@
     "license": "MIT",
     "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
     "funding": "https://ko-fi.com/igorskyflyer",
+    "sponsor": {
+        "url": "https://ko-fi.com/igorskyflyer"
+    },
+    "pricing": "Free",
     "homepage": "https://github.com/igorskyflyer/vscode-git-home",
     "repository": {
         "type": "git",
