@@ -18,7 +18,7 @@
     },
     "icon": "assets/extension.png",
     "galleryBanner": {
-        "color": "#5065E5",
+        "color": "#4A0BA8",
         "theme": "dark"
     },
     "contributes": {
