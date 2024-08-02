@@ -58,6 +58,13 @@
 
 ## 🕵🏼 Usage
 
+Open a projects that's a local Git repository and either do:
+
+- *`Command Palette`* -> *`Git Home: Open repository's origin URL`*
+- *Click on the `StatusBar` icon of the extension*
+
+Doing either of the two will launch the default browser and navigate to the repository's origin URL.
+
 ---
 
 ## 📝 Changelog
