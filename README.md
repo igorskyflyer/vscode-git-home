@@ -50,9 +50,9 @@
 
 ## 🤖 Features
 
-- 
-- 
-- 
+- 🎨 adds a command to the Command Palette to quickly navigate to the current local Git repository's URL
+- 🗽 adds an icon to the StatusBar to quickly navigate to the current local Git repository's URL
+- ⚖️ lightweight
 
 ---
 
