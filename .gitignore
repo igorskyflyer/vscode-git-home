@@ -3,3 +3,4 @@ dist/
 *.tgz
 *.vsix
 *.afdesign
+*.todo
