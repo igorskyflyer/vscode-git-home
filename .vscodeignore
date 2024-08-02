@@ -1,0 +1,12 @@
+.github/
+.vscode/
+node_modules/
+src/
+.gitattributes
+.gitignore
+.vscodeignore
+biome.json
+package-lock.json
+tsconfig.json
+*.vsix
+assets/*.afdesign
