@@ -1,4 +1,7 @@
-<h1 align="center">Git Home</h1>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/igorskyflyer/vscode-git-home/main/assets/extension.png" alt="GitHome, Visual Studio Code extension logo">
+  <h1>Git Home</h1>
+</div>
 
 <br>
 
