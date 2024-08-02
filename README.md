@@ -46,7 +46,8 @@
 - [Author](#-author)
 
 <br>
-<br>
+
+---
 
 ## 🤖 Features
 
