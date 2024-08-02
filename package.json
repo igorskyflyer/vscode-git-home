@@ -1,0 +1,87 @@
+{
+    "name": "git-home",
+    "publisher": "igordvlpr",
+    "displayName": "Git Home",
+    "version": "1.0.0",
+    "description": "🏡 Adds a convenient button to easily access the current local repo Git URL. 🪰",
+    "engines": {
+        "vscode": "^1.91.0"
+    },
+    "categories": ["Other"],
+    "activationEvents": ["onStartupFinished"],
+    "main": "dist/extension.js",
+    "extensionKind": ["ui"],
+    "capabilities": {
+        "untrustedWorkspaces": {
+            "supported": false
+        }
+    },
+    "icon": "assets/extension.png",
+    "galleryBanner": {
+        "color": "#5065E5",
+        "theme": "dark"
+    },
+    "contributes": {
+        "commands": [
+            {
+                "command": "gitHome.goHome",
+                "title": "Open repository's origin URL",
+                "category": "Git Home",
+                "enablement": "gitHome.isGit"
+            }
+        ]
+    },
+    "menus": {
+        "commandPalette": [
+            {
+                "command": "gitHome.goHome",
+                "when": "gitHome.isGit"
+            }
+        ]
+    },
+    "scripts": {
+        "base": "esbuild src/extension.mts --bundle --outfile=dist/extension.js --format=cjs --platform=node --external:vscode --target=node20",
+        "dev": "npm run -S base -- --sourcemap",
+        "make": "npm run -S base -- --minify",
+        "vscode:prepublish": "npm run make",
+        "pkg": "vsce package",
+        "pub": "vsce publish"
+    },
+    "keywords": [
+        "git",
+        "home",
+        "url",
+        "origin",
+        "repo",
+        "repository",
+        "vscode",
+        "extension",
+        "igorskyflyer",
+        "igor.dvlpr"
+    ],
+    "license": "MIT",
+    "author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
+    "funding": "https://ko-fi.com/igorskyflyer",
+    "homepage": "https://github.com/igorskyflyer/vscode-git-home",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/igorskyflyer/vscode-git-home.git"
+    },
+    "bugs": {
+        "url": "https://github.com/igorskyflyer/vscode-git-home/issues"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.8.3",
+        "@igor.dvlpr/biome-config-igorskyflyer": "^1.0.3",
+        "@types/node": "^20.9.0",
+        "@types/vscode": "^1.91.0",
+        "esbuild": "^0.23.0",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "@igor.dvlpr/git-repo-url": "^1.0.3",
+        "@igor.dvlpr/is-git-repo": "^1.0.2",
+        "@igor.dvlpr/open-resource": "^1.0.1",
+        "@igor.dvlpr/simple-exec": "^2.0.0"
+    }
+}
