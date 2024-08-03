@@ -6,7 +6,7 @@
 <br>
 
 <div align="center">
-  🏡 Adds a convenient button to easily access the current local repo Git URL. 🪰
+  🏡 Adds a convenient command and statusbar item to easily access the current local repo Git URL. 🪰
 </div>
 
 <br>
