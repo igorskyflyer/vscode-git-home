@@ -76,6 +76,7 @@
     "sponsor": {
         "url": "https://ko-fi.com/igorskyflyer"
     },
+    "markdown": "github",
     "pricing": "Free",
     "homepage": "https://github.com/igorskyflyer/vscode-git-home",
     "repository": {
