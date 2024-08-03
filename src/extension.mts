@@ -12,7 +12,11 @@ function goHome(cwd: string): void {
     const url: string = getRepoUrlSync({ directory: cwd })
 
     if (url.length > 0 && url.startsWith('http')) {
-      openSync(url)
+      try {
+        openSync(url)
+      } catch {
+        vscode.window.showErrorMessage('No default handler/browser for URLs.')
+      }
     } else {
       vscode.window.showInformationMessage('Not in a local Git repository.')
     }
