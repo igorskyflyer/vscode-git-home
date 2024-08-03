@@ -16,6 +16,10 @@
 - **✅ fix**: show an error message when there is no default handler for URLs
 
 <br>
+
+- **💻 dev**: upgrade dependencies
+
+<br>
 <br>
 
 ## v1.0.0
