@@ -8,12 +8,18 @@ import * as vscode from 'vscode'
 let statusBarItem: vscode.StatusBarItem | null = null
 
 function goHome(cwd: string): void {
-  const url: string = getRepoUrlSync({ directory: cwd })
+  try {
+    const url: string = getRepoUrlSync({ directory: cwd })
 
-  if (url.length > 0 && url.startsWith('http')) {
-    openSync(url)
-  } else {
-    vscode.window.showErrorMessage('Not in a local Git repository.')
+    if (url.length > 0 && url.startsWith('http')) {
+      openSync(url)
+    } else {
+      vscode.window.showInformationMessage('Not in a local Git repository.')
+    }
+  } catch {
+    vscode.window.showErrorMessage(
+      'The required git executable is either not installed or not in the environment PATH variable.'
+    )
   }
 }
 
