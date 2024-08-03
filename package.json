@@ -2,7 +2,7 @@
     "name": "git-home",
     "publisher": "igordvlpr",
     "displayName": "Git Home",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "🏡 Adds a convenient button to easily access the current local repo Git URL. 🪰",
     "engines": {
         "vscode": "^1.91.0"
@@ -32,7 +32,15 @@
                 "category": "Git Home",
                 "enablement": "gitHome.isGit"
             }
-        ]
+        ],
+        "keybindings": {
+            "command": "gitHome.goHome",
+            "key": "CTRL+ALT+H",
+            "mac": "CMD+ALT+H",
+            "linux": "CTRL+ALT+H",
+            "win": "CTRL+ALT+H",
+            "when": "gitHome.isGit"
+        }
     },
     "menus": {
         "commandPalette": [
@@ -88,7 +96,7 @@
     "dependencies": {
         "@igor.dvlpr/git-repo-url": "^1.0.3",
         "@igor.dvlpr/is-git-repo": "^1.0.2",
-        "@igor.dvlpr/open-resource": "^1.0.1",
+        "@igor.dvlpr/open-resource": "^1.1.0",
         "@igor.dvlpr/simple-exec": "^2.0.0"
     }
 }
