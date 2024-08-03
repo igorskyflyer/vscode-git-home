@@ -2,12 +2,13 @@
 .vscode/
 node_modules/
 src/
+assets/*.afdesign
+dist/*.map
+*.vsix
+*.todo
 .gitattributes
 .gitignore
 .vscodeignore
 biome.json
 package-lock.json
 tsconfig.json
-*.vsix
-assets/*.afdesign
-*.todo
