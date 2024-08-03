@@ -48,8 +48,6 @@
 - [Related](#-related)
 - [Author](#-author)
 
-<br>
-
 ---
 
 ## 🤖 Features
@@ -58,9 +56,16 @@
 - 🗽 adds an icon to the StatusBar to quickly navigate to the current local Git repository's URL
 - ⚖️ lightweight
 
----
+<br>
 
 ## 🕵🏼 Usage
+
+
+> [!WARNING]
+> This extension requires that `git` is installed and available in the host's path.
+>
+
+<br>
 
 Open a projects that's a local Git repository and either do:
 
